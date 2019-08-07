@@ -34,4 +34,4 @@ The image's contents are manipulated through the `imageData` field in the TGAIma
 ## Example
 When run, the example program should output this:
 
-[image]: https://github.com/adrian154/tga-encoder/blob/master/example.png
+![image](https://github.com/adrian154/tga-encoder/blob/master/example.png)
