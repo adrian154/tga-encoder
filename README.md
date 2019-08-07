@@ -1,2 +1,3 @@
 # tga-encoder
-C encoder for TGA image files
+
+C encoder for TGA image files.
