@@ -7,9 +7,9 @@ int main(int argc, char *argv[]) {
 	
 	for(int r = 0; r < 256; r++) {
 		for(int g = 0; g < 256; g++) {
-			image->imageData[g * 256 * 3 + r * 3 + 2] = r;
+			image->imageData[g * 256 * 3 + r * 3] = r;
 			image->imageData[g * 256 * 3 + r * 3 + 1] = g;
-			image->imageData[g * 256 * 3 + r * 3] = 0;
+			image->imageData[g * 256 * 3 + r * 3 + 2] = 0;
 		}
 	}
 	
